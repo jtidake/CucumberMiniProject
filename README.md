@@ -5,7 +5,7 @@
 <body>
   <h1>Selenium Cucumber Automation Testing Exercise</h1>
 
-  <p>This project contains software automation testing exercises inspired by the test cases on <a href="https://automationexercise.com/">automationexercise.com</a>.</p>
+  <p>This project contains software automation testing exercises inspired by the test cases on <a href="https://automationexercise.com/"></a>.</p>
 
   <h2>Project Details</h2>
 
@@ -16,7 +16,7 @@
         <li>Selenium: A powerful web automation tool</li>
         <li>Cucumber: A behavior-driven development (BDD) framework</li>
         <li>Gherkin Language: A business-readable domain-specific language for specifying test cases</li>
-        <li>JUnit: A unit testing framework for Java</li>
+        <li>TestNG: A testing framework for Java</li>
       </ul>
     </li>
   </ul>
