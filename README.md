@@ -5,7 +5,7 @@
 <body>
   <h1>Selenium Cucumber Automation Testing Exercise</h1>
 
-  <p>This project contains software automation testing exercises inspired by the test cases on <a href="https://automationexercise.com/"></a>.</p>
+  <p>This project contains software automation testing exercises inspired by the test cases <a href="https://www.nba.com/warriors/"></a>.</p>
 
   <h2>Project Details</h2>
 
@@ -27,7 +27,7 @@
 
   <ol>
     <li>Clone the repository:
-    <pre><code>git clone https://github.com/githsem/Selenium_Cucumber_AutomationExercise.git</code></pre>
+    <pre><code>git clone https://github.com/jtidake/CucumberMiniProject.git</code></pre>
     </li>
     <li>Open the project in your preferred Java IDE.
     </li>
