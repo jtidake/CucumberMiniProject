@@ -10,7 +10,6 @@
   <h2>Project Details</h2>
 
   <ul>
-    <li>GitHub Repository: <a href="https://github.com/githsem/Selenium_Cucumber_AutomationExercise">https://github.com/githsem/Selenium_Cucumber_AutomationExercise</a></li>
     <li>Language: Java</li>
     <li>Frameworks and Libraries:
       <ul>
