@@ -37,10 +37,48 @@
    <li>Run the tests using the test runner class:
        <pre><code>mvn test</code></pre>
    </li>
+<li>Framewrok Architecture
+       <pre><code>cucumberMiniProject/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com.myProject.businessLogic/  # Business Logic (e.g., data operations, report generation)
+│   │   │   │   ├── JacketDetailsWriter.java
+│   │   │   │   └── ReportUtils.java
+│   │   │   ├── com.myProject.pages/          # Page Objects (represents web pages)
+│   │   │   │   ├── BasePage.java
+│   │   │   │   ├── ProductPage.java
+│   │   │   │   └── VideoFeedPage.java
+│   │   │   ├── com.myProject.utilities/      # Utility classes (browser configuration, drivers, etc.)
+│   │   │   │   ├── BrowserUtils.java
+│   │   │   │   ├── ConfigurationReader.java
+│   │   │   │   └── Driver.java
+│   │   ├── resources/                        # Resources (Log4j configuration, etc.)
+│   │   │   └── log4j2.xml
+│   │   
+│   ├── test/
+│   │   ├── java/
+│   │   │   ├── com.myProject.runners/        # Cucumber test runners
+│   │   │   │   └── Runner.java
+│   │   │   ├── com.myProject.stepDefinitions/  # Step Definitions (map Gherkin steps to code)
+│   │   │   │   ├── Hooks.java
+│   │   │   │   ├── ShopPage_StepDefs.java
+│   │   │   │   └── VideoFeedSteps.java
+│   │   ├── resources/                        # Cucumber feature files
+│   │   │   ├── features/                     # Feature files (Gherkin syntax)
+│   │   │   │   ├── shop.feature
+│   │   │   │   └── videoFeed.feature
+│   │   │                       
+├── .gitignore                                # Git ignore file for ignoring unnecessary files (e.g., target, logs, etc.)
+├── pom.xml                                   # Maven build file
+└── README.md                                 # Project README file
+
+</code></pre>
+   </li>
   </ol>
 
   <h2>Report</h2>
-
   <p>A detailed report of the test results can be found in the project. The report includes information such as test case status, execution time, and any failures or errors encountered during the tests.</p>
 
 </body>
