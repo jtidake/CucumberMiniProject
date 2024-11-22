@@ -16,7 +16,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
         tags = "@smoke",
         monochrome=true
 )
-public class Runner extends AbstractTestNGCucumberTests {
+public class CukesRunner extends AbstractTestNGCucumberTests {
 
     @Override
     @DataProvider(parallel = true) // Set parallel to true for parallel execution (optional)

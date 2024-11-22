@@ -1,4 +1,4 @@
-package com.myProject.businessLogics;
+package com.myProject.utilities;
 
 import io.qameta.allure.Allure;
 import org.testng.Assert;
